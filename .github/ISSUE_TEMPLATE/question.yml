@@ -1,0 +1,38 @@
+name: 질문 / 막힌 부분
+description: 문제를 풀다 막힌 부분을 질문합니다.
+title: "[week00] 문제명 - 질문 요약"
+labels: ["질문"]
+body:
+  - type: input
+    id: problem
+    attributes:
+      label: 문제
+      description: 주차와 문제 이름을 적어주세요.
+      placeholder: "week01 / 1-2 큰 수의 법칙"
+    validations:
+      required: true
+
+  - type: textarea
+    id: stuck
+    attributes:
+      label: 어디서 막혔나요?
+      description: 어떤 접근을 시도했고, 어느 지점에서 안 되는지 적어주세요.
+      placeholder: |
+        - 시도한 접근:
+        - 안 되는 부분:
+        - 예상과 다른 결과:
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: 코드
+      description: 붙여넣으면 자동으로 코드 블록이 됩니다.
+      render: python
+
+  - type: textarea
+    id: etc
+    attributes:
+      label: 참고 사항
+      description: 에러 메시지, 실패한 테스트케이스 등 (선택)
