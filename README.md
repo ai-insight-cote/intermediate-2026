@@ -15,26 +15,26 @@ HYUNDAI AI INSIGHT CAMPUS · AI 서비스 개발 과정
 
 | 주차 | 날짜 | 주제 | 문제 | 발표자 |
 |---|---|---|---|---|
-| [week01](week01) | 09/09 | | | |
-| [week02](week02) | 09/16 | | | |
-| [week03](week03) | 09/23 | | | |
-| [week04](week04) | 09/30 | | | |
-| [week05](week05) | 10/07 | | | |
-| [week06](week06) | 10/14 | | | |
-| [week07](week07) | 10/21 | | | |
-| [week08](week08) | 10/28 | | | |
-| [week09](week09) | 11/04 | | | |
-| [week10](week10) | 11/11 | | | |
-| [week11](week11) | 11/18 | | | |
-| [week12](week12) | 11/25 | | | |
-| [week13](week13) | 12/02 | | | |
-| [week14](week14) | 12/09 | | | |
+| [week01](week01) | 09/09 | OT + 그리디 (3장) | | |
+| [week02](week02) | 09/16 | 그리디 기출 (11장) | | |
+| [week03](week03) | 09/23 | 구현(4장) | | |
+| [week04](week04) | 09/30 | 구현 기출 (12장) | | |
+| [week05](week05) | 10/07 | DFS/BFS (5장) | | |
+| [week06](week06) | 10/14 | DFS/BFS 기출 (13장) | | |
+| [week07](week07) | 10/21 | 정렬 (6장) | | |
+| [week08](week08) | 10/28 | 이진 탐색 (7장) | | |
+| [week09](week09) | 11/04 | 정렬·이진탐색 기출 (14·15장) | | |
+| [week10](week10) | 11/11 | DP(8장) | | |
+| [week11](week11) | 11/18 | DP 기출 (16장) | | |
+| [week12](week12) | 11/25 | 최단 경로 (9장) | | |
+| [week13](week13) | 12/02 | 그래프 이론 (10장) | | |
+| [week14](week14) | 12/09 | 최단 경로·그래프 기출 (17·18장) | | |
 
 ## 조 편성
 
 | 기간 | 1조 | 2조 | 3조 |
 |---|---|---|---|
-| week01–02 | | | |
+| week01–02 | 김소은·류현수·손재호·장유빈 | 김현준·박세람·이현종·장영균 | 김민재·이서현·정재연·조윤빈 |
 | week03–04 | | | |
 
 ## 제출 방법
@@ -58,4 +58,15 @@ git push -u origin week01-본인이름
 
 | 이름 | GitHub |
 |---|---|
-| | |
+| 김민재 | [KimMinJae](https://github.com/wintery7) |
+| 김소은 | [KimSoEun](https://github.com/soeundipia-teez) |
+| 김현준 | [KimHyunJoon](https://github.com/clipnpaper) |
+| 류현수 | [RyuHyeonSu](https://github.com/HyeonsuRyu) |
+| 박세람 | [ParkSeRam](https://github.com/seram2002-wq) |
+| 손재호 | [SonJaeHo](https://github.com/thswogh) |
+| 이서현 | [LeeSeoHyun](https://github.com/SeoHyun1024) |
+| 이현종 | [Navi-Up](https://github.com/Navi-Up) |
+| 장영균 | [JangYoungGyun](https://github.com/Gro-J) |
+| 장유빈 | [JangYuBin](https://github.com/yubeeeeeeeeeeeeeeeeeeen) |
+| 정재연 | [JeongJaeYeon](https://github.com/jaeyeonjeong62) |
+| 조윤빈 | [JoYoonBin](https://github.com/Y1OO5B) |
