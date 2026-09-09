@@ -58,15 +58,15 @@ git push -u origin week01-본인이름
 
 | 이름 | GitHub |
 |---|---|
-| 김민재 | [KimMinJae](https://github.com/wintery7) |
-| 김소은 | [KimSoEun](https://github.com/soeundipia-teez) |
-| 김현준 | [KimHyunJoon](https://github.com/clipnpaper) |
-| 류현수 | [RyuHyeonSu](https://github.com/HyeonsuRyu) |
-| 박세람 | [ParkSeRam](https://github.com/seram2002-wq) |
-| 손재호 | [SonJaeHo](https://github.com/thswogh) |
-| 이서현 | [LeeSeoHyun](https://github.com/SeoHyun1024) |
+| 김민재 | [wintery7](https://github.com/wintery7) |
+| 김소은 | [soeundipia-teez](https://github.com/soeundipia-teez) |
+| 김현준 | [clipnpaper](https://github.com/clipnpaper) |
+| 류현수 | [HyeonsuRyu](https://github.com/HyeonsuRyu) |
+| 박세람 | [seram2002-wq](https://github.com/seram2002-wq) |
+| 손재호 | [thswogh](https://github.com/thswogh) |
+| 이서현 | [SeoHyun1024](https://github.com/SeoHyun1024) |
 | 이현종 | [Navi-Up](https://github.com/Navi-Up) |
-| 장영균 | [JangYoungGyun](https://github.com/Gro-J) |
-| 장유빈 | [JangYuBin](https://github.com/yubeeeeeeeeeeeeeeeeeeen) |
-| 정재연 | [JeongJaeYeon](https://github.com/jaeyeonjeong62) |
-| 조윤빈 | [JoYoonBin](https://github.com/Y1OO5B) |
+| 장영균 | [Gro-J](https://github.com/Gro-J) |
+| 장유빈 | [yubeeeeeeeeeeeeeeeeeeen](https://github.com/yubeeeeeeeeeeeeeeeeeeen) |
+| 정재연 | [jaeyeonjeong62](https://github.com/jaeyeonjeong62) |
+| 조윤빈 | [Y1OO5B](https://github.com/Y1OO5B) |
