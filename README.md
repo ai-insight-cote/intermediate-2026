@@ -15,20 +15,20 @@ HYUNDAI AI INSIGHT CAMPUS · AI 서비스 개발 과정
 
 | 주차 | 날짜 | 주제 | 문제 | 발표자 |
 |---|---|---|---|---|
-| [week01](week01) | 09/09 | OT + 그리디 (3장) | | |
-| [week02](week02) | 09/16 | 그리디 기출 (11장) | | |
-| [week03](week03) | 09/23 | 구현(4장) | | |
-| [week04](week04) | 09/30 | 구현 기출 (12장) | | |
-| [week05](week05) | 10/07 | DFS/BFS (5장) | | |
-| [week06](week06) | 10/14 | DFS/BFS 기출 (13장) | | |
-| [week07](week07) | 10/21 | 정렬 (6장) | | |
-| [week08](week08) | 10/28 | 이진 탐색 (7장) | | |
-| [week09](week09) | 11/04 | 정렬·이진탐색 기출 (14·15장) | | |
-| [week10](week10) | 11/11 | DP(8장) | | |
-| [week11](week11) | 11/18 | DP 기출 (16장) | | |
-| [week12](week12) | 11/25 | 최단 경로 (9장) | | |
-| [week13](week13) | 12/02 | 그래프 이론 (10장) | | |
-| [week14](week14) | 12/09 | 최단 경로·그래프 기출 (17·18장) | | |
+| [week01](week01) | 09/16 | OT + 그리디 (3장) | 큰 수의 법칙·숫자 카드 게임·1이 될 때까지| |
+| [week02](week02) | 09/23 | 그리디 기출 (11장) | 모험가 길드·곱하기 혹은 더하기·만들 수 없는 금액 | |
+| [week03](week03) | 09/30 | 구현(4장) | 왕실의 나이트·게임 개발 | |
+| [week04](week04) | 10/07 | 구현 기출 (12장) | 럭키 스트레이트·문자열 재정렬·문자열 압축 | |
+| [week05](week05) | 10/14 | DFS/BFS (5장) | 음료수 얼려 먹기·미로 탈출 | |
+| [week06](week06) | 10/21 | DFS/BFS 기출 (13장) | 특정 거리의 도시 찾기·연구소·경쟁적 전염 | |
+| [week07](week07) | 10/28 | 정렬 (6장) | 위에서 아래로·성적이 낮은 순서로·두 배열의 원소 교체 | |
+| [week08](week08) | 11/04 | 이진 탐색 (7장) | 부품 찾기·떡볶이 떡 만들기 | |
+| [week09](week09) | 11/11 | 정렬·이진탐색 기출 (14·15장) | 안테나·실패율·공유기 설치 | |
+| [week10](week10) | 11/18 | DP(8장) | 1로 만들기·개미 전사·바닥 공사·효율적인 화폐 구성 | |
+| [week11](week11) | 11/25 | DP 기출 (16장) | 금광·정수 삼각형·퇴사 | |
+| [week12](week12) | 12/02 | 최단 경로 (9장) | 미래 도시·전보 | |
+| [week13](week13) | 12/09 | 그래프 이론 (10장) | 팀 결성·도시 분할 계획·커리큘럼 | |
+| [week14](week14) | 12/16 | 최단 경로·그래프 기출 (17·18장) | 플로이드·정확한 순위·여행 계획 | |
 
 ## 조 편성
 
@@ -58,15 +58,15 @@ git push -u origin week01-본인이름
 
 | 이름 | GitHub |
 |---|---|
-| 김민재 | [KimMinJae](https://github.com/wintery7) |
-| 김소은 | [KimSoEun](https://github.com/soeundipia-teez) |
-| 김현준 | [KimHyunJoon](https://github.com/clipnpaper) |
-| 류현수 | [RyuHyeonSu](https://github.com/HyeonsuRyu) |
-| 박세람 | [ParkSeRam](https://github.com/seram2002-wq) |
-| 손재호 | [SonJaeHo](https://github.com/thswogh) |
-| 이서현 | [LeeSeoHyun](https://github.com/SeoHyun1024) |
+| 김민재 | [wintery7](https://github.com/wintery7) |
+| 김소은 | [soeundipia-teez](https://github.com/soeundipia-teez) |
+| 김현준 | [clipnpaper](https://github.com/clipnpaper) |
+| 류현수 | [HyeonsuRyu](https://github.com/HyeonsuRyu) |
+| 박세람 | [seram2002-wq](https://github.com/seram2002-wq) |
+| 손재호 | [thswogh](https://github.com/thswogh) |
+| 이서현 | [SeoHyun1024](https://github.com/SeoHyun1024) |
 | 이현종 | [Navi-Up](https://github.com/Navi-Up) |
-| 장영균 | [JangYoungGyun](https://github.com/Gro-J) |
-| 장유빈 | [JangYuBin](https://github.com/yubeeeeeeeeeeeeeeeeeeen) |
-| 정재연 | [JeongJaeYeon](https://github.com/jaeyeonjeong62) |
-| 조윤빈 | [JoYoonBin](https://github.com/Y1OO5B) |
+| 장영균 | [Gro-J](https://github.com/Gro-J) |
+| 장유빈 | [yubeeeeeeeeeeeeeeeeeeen](https://github.com/yubeeeeeeeeeeeeeeeeeeen) |
+| 정재연 | [jaeyeonjeong62](https://github.com/jaeyeonjeong62) |
+| 조윤빈 | [Y1OO5B](https://github.com/Y1OO5B) |
