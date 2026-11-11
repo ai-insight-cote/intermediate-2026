@@ -16,15 +16,17 @@ def reorder(S : str):
     """
     st = ""
     num = 0
-
+    hasNum = False
     for ch in S:
         if ch >= '0' and ch <= '9':
             num += ord(ch) - ord('0')
+            hasNum = True
         else:
             st += ch
 
     result = "".join(sorted(st))
-    result += str(num)
+    if hasNum: 
+        result += str(num)
 
     return result
 
