@@ -1,3 +1,8 @@
+import collections
+
+def check(x, y, n, m):
+    return 0 <= x < n and 0 <= y < m
+
 def count_ice_cream(n: int, m: int, graph: list[list[int]]) -> int:
     """음료수 얼려 먹기: 얼음 틀에서 생성되는 총 아이스크림의 개수를 구합니다.
 
@@ -29,14 +34,57 @@ def count_ice_cream(n: int, m: int, graph: list[list[int]]) -> int:
     # 그 주변을 1로 채운다
     # 주변을 탐색할때, 어떻게? 
     # BFS알고리즘을 통해
-    x=0
-    y=0
     ice_tray = graph
     # 상 하 좌 우
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
 
-    x = 
+    result = 0
+    for x in range(n):
+        for y in range(m):
+            if ice_tray[x][y] == 0:
+                result += 1
+                deq = collections.deque([(x, y)])
+                ice_tray[x][y] = 1
+                while deq:
+                    cx, cy = deq.popleft()
+                    ice_tray[cx][cy] = 1
+                    for i in range(4):
+                        nx = cx + dx[i]
+                        ny = cy + dy[i]
+                        if not check(nx, ny, n, m):
+                            continue
+                        if ice_tray[nx][ny] == 1:
+                            continue
+                        ice_tray[nx][ny] = 1
+                        deq.append((nx,ny))
+
+
+    return result
+
+if __name__ == "__main__":
+    n, m = 15, 14
+    ice_tray = [
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0],
+        [1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1],
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
+    ]
+
+    print(count_ice_cream(n, m, ice_tray))  # 예상 출력 결과: 8
+    
+    
 
     
 
